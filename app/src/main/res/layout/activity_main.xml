@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <LinearLayout
+        android:id="@+id/nav_view"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+            <com.application.mahabad.niroomohareke.View.CustomTextVazir
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/linear_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selectable_item_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/home"
+                        android:textColor="@color/navigationtext"
+                        android:textCursorDrawable="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_home"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_home_black_24dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_khadamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selectable_item_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+
+                    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/khadamat"
+                        android:textColor="@color/navigationtext"
+                        android:textCursorDrawable="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_khadamat"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_menu_manage" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_document"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selectable_item_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+
+                    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/document"
+                        android:textColor="@color/navigationtext"
+                        android:textCursorDrawable="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_document"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/toolbox_solid" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_gallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selectable_item_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/gallery"
+                        android:textColor="@color/navigationtext"
+                        android:textCursorDrawable="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_gallery"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_menu_gallery" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_download"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selectable_item_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+
+                    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/downloads"
+                        android:textColor="@color/navigationtext"
+                        android:textCursorDrawable="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_downloads"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_cloud_download_black_24dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_channel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selectable_item_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+
+                    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/telchannel"
+                        android:textColor="@color/navigationtext"
+                        android:textCursorDrawable="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_channel"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/telegram_brands" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selectable_item_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+
+                    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/address"
+                        android:textColor="@color/navigationtext"
+                        android:textCursorDrawable="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_address"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_map" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selectable_item_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/aboutus"
+                        android:textColor="@color/navigationtext"
+                        android:textCursorDrawable="@color/black" />
+
+
+                    <ImageView
+                        android:id="@+id/img_about"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/information_button" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

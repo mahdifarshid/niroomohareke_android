@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/linear_attr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+        android:id="@+id/id_count"
+        android:layout_margin="16dp"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true" />
+
+    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+        android:layout_toRightOf="@+id/id_count"
+        android:gravity="right"
+        android:id="@+id/id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textSize="13sp"
+        android:paddingRight="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:paddingEnd="3dp"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/id_count" />
+</RelativeLayout>

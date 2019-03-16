@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:1:1-12:12
+INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:1:1-12:12
+INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:1:1-12:12
+INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:1:1-12:12
+INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:1:1-12:12
+INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:1:1-12:12
+INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:1:1-12:12
+	package
+		ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:2:5-41
+		INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml
+		INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:4:5-30
+		INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml
+		INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:4:31-77
+	xmlns:android
+		ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:3:5-28
+		INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml
+		INJECTED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml
+uses-sdk
+ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:8:9-38
+	android:minSdkVersion
+		ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:7:9-35
+application
+ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:10:5-57
+	tools:ignore
+		ADDED from /home/farshid/AndroidStudioProjects/Industrial/ParallaxScroll/AndroidManifest.xml:10:18-55

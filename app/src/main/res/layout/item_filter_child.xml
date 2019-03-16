@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_attr"
+    android:background="?attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+        android:id="@+id/id_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="14sp" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/check_filter"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:theme="@style/checkBoxComponent"
+        android:layout_alignParentStart="true" />
+
+    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+        android:id="@+id/id_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/check_filter"
+        android:textColor="#000"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="13dp" />
+
+</RelativeLayout>

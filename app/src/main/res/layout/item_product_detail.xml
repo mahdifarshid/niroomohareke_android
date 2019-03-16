@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+
+    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+        android:id="@+id/tv_attrvalue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:paddingBottom="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/gray"
+        android:textSize="14sp"
+        tools:text="وزن" />
+
+
+    <com.application.mahabad.niroomohareke.View.CustomTextVazir
+        android:id="@+id/tv_attrtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:gravity="right"
+        android:paddingBottom="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        tools:text="174 گرم" />
+
+    <!--<View-->
+    <!--android:layout_width="0.7dp"-->
+    <!--android:layout_height="38dp"-->
+    <!--android:background="@color/view" />-->
+
+
+</LinearLayout>

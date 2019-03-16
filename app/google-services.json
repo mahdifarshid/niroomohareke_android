@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "802306878321",
+    "firebase_url": "https://niroomoharekemahabad-4b7fe.firebaseio.com",
+    "project_id": "niroomoharekemahabad-4b7fe",
+    "storage_bucket": "niroomoharekemahabad-4b7fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802306878321:android:4ce0e7e64367a401",
+        "android_client_info": {
+          "package_name": "com.application.mahabad.niroomohareke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802306878321-ds19hqr4qgt4jl4h8i5eengridjrkuvt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.mahabad.niroomohareke",
+            "certificate_hash": "945bbf64500e16befb61dc891db7a0b854e4edcf"
+          }
+        },
+        {
+          "client_id": "802306878321-cgi7937516nfu7kspi772ckvqsqmf9c4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxItOmk_Fu83Kx0yVCcjDLw-F1TnEvNzU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802306878321-cgi7937516nfu7kspi772ckvqsqmf9c4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
