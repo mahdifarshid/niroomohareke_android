@@ -95,7 +95,7 @@ public class ProductActivity extends AppCompatActivity implements PaginationAdap
     private int currentPage = PAGE_START;
 
     private AttributesModel attributeModel;
-    private ArrayList<AttributesModel> attributeslist;
+    private ArrayList<AttributesModel> attributeslist = new ArrayList<>();;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
